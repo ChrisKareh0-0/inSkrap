@@ -1,4 +1,4 @@
-#!/home/kurisu/Documents/inSkrap/backend/venv/bin/python3
+#!/mnt/c/Users/TouficAlRifaii/Desktop/inSkrap/backend/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
