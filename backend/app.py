@@ -1,17 +1,23 @@
+import os 
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from scrapper import login_instagram, search_instagram, get_profiles
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
+from dotenv import load_dotenv
+from os.path import join, dirname
 
+
+dotenv_path = join(dirname(__file__), '.env')
+load_dotenv(dotenv_path)
 app = Flask(__name__)
 CORS(app)  # Enable CORS
-
+print(os.environ.get("INSTAGRAM_USERNAME"))
 # Configure Chrome options
 options = Options()
 options.headless = True
-driver_path = '/usr/bin/chromedriver'  # Make sure to set the correct path to the ChromeDriver
+driver_path = os.environ.get("CHROMEDRIVER_PATH")  # Make sure to set the correct path to the ChromeDriver
 service = Service(driver_path)
 
 @app.route('/search', methods=['POST'])
@@ -23,8 +29,8 @@ def search():
     if not query or not country:
         return jsonify({"error": "Missing query or country"}), 400
 
-    username = ""  # Replace with your Instagram username
-    password = ""  # Replace with your Instagram password
+    username = "jinwoo_kira"  # Replace with your Instagram username
+    password = "1235Amse"  # Replace with your Instagram password
 
     driver = webdriver.Chrome(service=service, options=options)
 

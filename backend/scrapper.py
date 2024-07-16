@@ -1,3 +1,4 @@
+import os 
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.service import Service
@@ -7,11 +8,14 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
 import time
+from dotenv import load_dotenv
+from os.path import join, dirname
+
 
 # Configure Chrome options
 options = Options()
 options.headless = True
-driver_path = '/usr/bin/chromedriver'  # Make sure to set the correct path to the ChromeDriver
+driver_path = os.environ.get("CHROMEDRIVER_PATH")  # Make sure to set the correct path to the ChromeDriver
 service = Service(driver_path)
 
 def login_instagram(driver, username, password):
@@ -58,9 +62,8 @@ def get_profiles(results):
     return profiles
 
 if __name__ == "__main__":
-    username = "your_instagram_username"
-    password = "your_instagram_password"
-
+    username = os.environ.get("INSTAGRAM_USERNAME")
+    password = os.environ.get("INSTAGRAM_PASSWORD")
     driver = webdriver.Chrome(service=service, options=options)
 
     try:
