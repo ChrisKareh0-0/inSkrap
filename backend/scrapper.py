@@ -2,35 +2,71 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
-import time
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
+import time
 
+# Configure Chrome options
 options = Options()
 options.headless = True
 driver_path = '/usr/bin/chromedriver'  # Make sure to set the correct path to the ChromeDriver
 service = Service(driver_path)
 
-def search_instagram(query, country):
-    driver = webdriver.Chrome(service=service, options=options)
-    driver.get("https://www.instagram.com")
-    time.sleep(2)
+def login_instagram(driver, username, password):
+    driver.get("https://www.instagram.com/accounts/login/")
+    WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.NAME, "username"))
+    )
 
-    search_box = driver.find_element_by_css_selector("input[placeholder='Search']")
+    username_input = driver.find_element(By.NAME, "username")
+    password_input = driver.find_element(By.NAME, "password")
+
+    username_input.send_keys(username)
+    password_input.send_keys(password)
+    password_input.send_keys(Keys.RETURN)
+
+    WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.CSS_SELECTOR, "input[placeholder='Search']"))
+    )
+
+def search_instagram(driver, query, country):
+    search_box = driver.find_element(By.CSS_SELECTOR, "input[placeholder='Search']")
     search_box.send_keys(f"{query} {country}")
-    time.sleep(2)
+    WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.XPATH, "//div[@role='none']"))
+    )
     search_box.send_keys(Keys.RETURN)
     time.sleep(2)
     search_box.send_keys(Keys.RETURN)
-    time.sleep(5)
+    WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.CSS_SELECTOR, "article"))
+    )
 
     results = driver.page_source
-    driver.quit()
+    return results
 
+def get_profiles(results):
     soup = BeautifulSoup(results, 'html.parser')
     profiles = []
 
-    for profile in soup.find_all('div', class_='v1Nh3 kIKUG  _bz0w'):
+    for profile in soup.find_all('div', class_='v1Nh3 kIKUG _bz0w'):
         link = profile.find('a')['href']
         profiles.append(f"https://www.instagram.com{link}")
 
     return profiles
+
+if __name__ == "__main__":
+    username = "your_instagram_username"
+    password = "your_instagram_password"
+
+    driver = webdriver.Chrome(service=service, options=options)
+
+    try:
+        login_instagram(driver, username, password)
+        results = search_instagram(driver, "business category", "country")
+        profiles = get_profiles(results)
+        print(profiles)
+    finally:
+        driver.quit()
