@@ -13,7 +13,6 @@ dotenv_path = join(dirname(__file__), '.env')
 load_dotenv(dotenv_path)
 app = Flask(__name__)
 CORS(app)  # Enable CORS
-print(os.environ.get("INSTAGRAM_USERNAME"))
 # Configure Chrome options
 options = Options()
 options.headless = True
@@ -29,8 +28,8 @@ def search():
     if not query or not country:
         return jsonify({"error": "Missing query or country"}), 400
 
-    username = "jinwoo_kira"  # Replace with your Instagram username
-    password = "1235Amse"  # Replace with your Instagram password
+    username = os.environ.get("INSTAGRAM_USERNAME")  # Replace with your Instagram username
+    password = os.environ.get("INSTAGRAM_PASSWORD")  # Replace with your Instagram password
 
     driver = webdriver.Chrome(service=service, options=options)
 
