@@ -26,8 +26,8 @@ def fetch_business_profiles(cl, category, country):
 
 if __name__ == "__main__":
     # Set your Instagram credentials
-    username = "ryan_kyrillos"
-    password = "Kyrillos1234_rayenig"
+    username = ""
+    password = ""
     category = "restaurant"  # Example category
     country = "USA"           # Example country
 
