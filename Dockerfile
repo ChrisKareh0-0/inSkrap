@@ -1,4 +1,4 @@
-# # Stage 1: Build Backend
+# Stage 1: Build Backend
 FROM python:3.8-slim as backend-app-builder
 
 # Set the working directory
@@ -10,7 +10,7 @@ COPY backend-app/requirements.txt ./
 # Install the required Python packages
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy the rest of the backend-app application code
+# Copy the rest of the backend application code
 COPY backend-app/ .
 
 # Stage 2: Build Frontend
@@ -43,17 +43,21 @@ FROM python:3.8-slim
 # Set the working directory
 WORKDIR /app
 
-# Copy backend-app code from backend-app-builder stage
+# Copy backend code from backend-app-builder stage
 COPY --from=backend-app-builder /app /app
 
 # Copy frontend build from frontend-builder stage
 COPY --from=frontend-builder /app/inskrap-frontend/dist /app/inskrap-frontend/dist
 
 # Install Flask and other dependencies
+COPY backend-app/requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Expose the application port (adjust as needed)
-EXPOSE 80
+# Expose the application port for Flask
+EXPOSE 5000
 
-# Command to run the application (adjust as needed)
-CMD ["python", "app.py"]
+# Expose the port for the React application
+EXPOSE 3000
+
+# Start the backend and frontend
+CMD ["sh", "-c", "python app.py & cd /app/inskrap-frontend/dist && python -m http.server 3000"]
