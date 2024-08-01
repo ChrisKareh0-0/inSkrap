@@ -1,9 +1,9 @@
-
+````markdown
 ---
 
 # inSkrap
 
-A web application that scrapes data from Google Maps based on a given keyword and location, and displays the results. Users can export the results to PDF and Excel formats.
+A web application that scrapes data from Google Maps based on a given keyword and location, and displays the results. Users can export the results to PDF and Excel formats. Now with Docker support!
 
 ## Table of Contents
 
@@ -12,15 +12,13 @@ A web application that scrapes data from Google Maps based on a given keyword an
   - [Project Description](#project-description)
   - [Features](#features)
   - [Setup Instructions](#setup-instructions)
-    - [Backend Setup](#backend-setup)
-    - [Frontend Setup](#frontend-setup)
+    - [Docker Setup](#docker-setup)
   - [Usage](#usage)
   - [Technologies Used](#technologies-used)
 
-
 ## Project Description
 
-This project is a web application that allows users to scrape data from Google Maps based on a specified keyword and location. The application displays the results in a table and provides options to export the data to PDF and Excel formats. 
+This project is a web application that allows users to scrape data from Google Maps based on a specified keyword and location. The application displays the results in a table and provides options to export the data to PDF and Excel formats. Now, the application can be easily set up and run using Docker.
 
 ## Features
 
@@ -29,54 +27,33 @@ This project is a web application that allows users to scrape data from Google M
 - Export results to PDF.
 - Export results to Excel.
 - Interactive neural noise background effect.
+- Docker support for easy setup and deployment.
 
 ## Setup Instructions
 
-### Backend Setup
+### Docker Setup
 
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/yourusername/google-maps-scraper.git
    cd google-maps-scraper
    ```
+````
 
-2. **Set up a virtual environment:** // **Or you can simply just run app.py**
+2. **Build the Docker image:**
+
    ```bash
-   python3 -m venv venv
-   source venv/bin/activate
+    docker build -t wire-scraper-v0.1 .
    ```
 
-3. **Install the required packages:**
+3. **Run the Docker container:**
    ```bash
-   pip install Flask selenium webdriver-manager
-   ```
-
-4. **Run the Flask application:**
-   ```bash
-   export FLASK_APP=app.py
-   flask run
-   ```
-
-### Frontend Setup
-
-1. **Navigate to the frontend directory (if applicable):**
-   ```bash
-   cd frontend
-   ```
-
-2. **Install the required packages:**
-   ```bash
-   npm install
-   ```
-
-3. **Start the React application:**
-   ```bash
-   npm start
+    docker run -p 5000:3000 google-maps-scraper
    ```
 
 ## Usage
 
-1. Open your web browser and navigate to `http://localhost:3000` to access the React frontend.
+1. Open your web browser and navigate to `http://localhost:5000` to access the application.
 2. Enter the keyword and location in the search form and click "Search".
 3. View the results displayed in the table.
 4. Use the "Export to PDF" and "Export to Excel" buttons to save the results.
@@ -87,5 +64,4 @@ This project is a web application that allows users to scrape data from Google M
 - React
 - Selenium
 - Webdriver-Manager
-
-
+- Docker
