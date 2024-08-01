@@ -1,3 +1,0 @@
-selenium-wire
-selenium
-webdriver_manager

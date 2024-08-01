@@ -1,0 +1,6 @@
+Flask==2.1.1
+Werkzeug==2.0.3
+flask_cors
+selenium-wire
+selenium
+webdriver_manager
