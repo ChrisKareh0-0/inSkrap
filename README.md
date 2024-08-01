@@ -33,12 +33,11 @@ This project is a web application that allows users to scrape data from Google M
 ### Docker Setup
 
 1. **Clone the repository:**
+
    ```bash
    git clone https://github.com/yourusername/google-maps-scraper.git
    cd google-maps-scraper
    ```
-
-````
 
 2. **Build the Docker image:**
 
@@ -50,8 +49,7 @@ This project is a web application that allows users to scrape data from Google M
    ```bash
     docker run -p 5000:3000 google-maps-scraper
    ```
-![Screenshot of the application](screenshot.png)
-
+   ![Screenshot of the application](screenshot.png)
 
 ## Usage
 
@@ -67,4 +65,7 @@ This project is a web application that allows users to scrape data from Google M
 - Selenium
 - Webdriver-Manager
 - Docker
-````
+
+```
+
+```
