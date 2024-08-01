@@ -20,7 +20,7 @@
     "link": "https://www.google.com/maps/place/Choueh+Law+Firm,+%D9%85%D9%83%D8%AA%D8%A8+%D8%B4%D9%88%D8%A7%D8%AD+%D9%84%D9%84%D9%85%D8%AD%D8%A7%D9%85%D8%A7%D8%A9+Law+Firm+In+Lebanon,+Company+Registration+and+business+formation+in+Beirut,+Lebanon%E2%80%AD/data=!4m7!3m6!1s0x151f3d523fa31f5d:0x222009d000f7817a!8m2!3d33.8996551!4d35.5740863!16s%2Fg%2F11hf8sbwd8!19sChIJXR-jP1I9HxUReoH3ANAJICI?authuser=0&hl=ar&rclk=1",
     "website": "https://chouehlawfirm.com/",
     "stars": 5.0,
-    "reviews": 203,
+    "reviews": 204,
     "phone": "81 093 987"
   },
   {
@@ -30,6 +30,14 @@
     "stars": 5.0,
     "reviews": 105,
     "phone": "03 701 076"
+  },
+  {
+    "title": "Allied Legals Law Firm المتحد للقانون",
+    "link": "https://www.google.com/maps/place/Allied+Legals+Law+Firm+%D8%A7%D9%84%D9%85%D8%AA%D8%AD%D8%AF+%D9%84%D9%84%D9%82%D8%A7%D9%86%D9%88%D9%86%E2%80%AD/data=!4m7!3m6!1s0x151f171a6948f0a5:0xf4ef842cb837efc!8m2!3d33.8806909!4d35.5075721!16s%2Fg%2F11c30wvm0w!19sChIJpfBIaRoXHxUR_H6Dy0L4Tg8?authuser=0&hl=ar&rclk=1",
+    "website": "https://www.alliedlegals.com/",
+    "stars": 4.8,
+    "reviews": 21,
+    "phone": "03 946 263"
   },
   {
     "title": "MCL: Lawyers in Lebanon, Law firms in Lebanon, International Law firm In Lebanon, Trademark registration Lebanon",
@@ -44,7 +52,7 @@
     "link": "https://www.google.com/maps/place/Eid+Law+Firm+-+Lebanese+Lawyer/data=!4m7!3m6!1s0x151f3d8b0b9cf4d7:0x2718555aa593f610!8m2!3d33.9014578!4d35.5939426!16s%2Fg%2F11gb3yrrzk!19sChIJ1_ScC4s9HxUREPaTpVpVGCc?authuser=0&hl=ar&rclk=1",
     "website": "https://eidlaw.com/",
     "stars": 4.8,
-    "reviews": 40,
+    "reviews": 41,
     "phone": "03 442 422"
   },
   {
@@ -69,14 +77,6 @@
     "stars": 5.0,
     "reviews": 24,
     "phone": "01 630 030"
-  },
-  {
-    "title": "Allied Legals Law Firm المتحد للقانون",
-    "link": "https://www.google.com/maps/place/Allied+Legals+Law+Firm+%D8%A7%D9%84%D9%85%D8%AA%D8%AD%D8%AF+%D9%84%D9%84%D9%82%D8%A7%D9%86%D9%88%D9%86%E2%80%AD/data=!4m7!3m6!1s0x151f171a6948f0a5:0xf4ef842cb837efc!8m2!3d33.8806909!4d35.5075721!16s%2Fg%2F11c30wvm0w!19sChIJpfBIaRoXHxUR_H6Dy0L4Tg8?authuser=0&hl=ar&rclk=1",
-    "website": "https://www.alliedlegals.com/",
-    "stars": 4.8,
-    "reviews": 21,
-    "phone": "03 946 263"
   },
   {
     "title": "Lawyer Hicham Ali Fakih",
@@ -154,6 +154,14 @@
     "phone": "03 379 579"
   },
   {
+    "title": "MP Lawyers and Legal Consultants",
+    "link": "https://www.google.com/maps/place/MP+Lawyers+and+Legal+Consultants/data=!4m7!3m6!1s0x151f17ec7186dba5:0xadfbeaca6190dae!8m2!3d33.8996001!4d35.5051638!16s%2Fg%2F11pf2kr73w!19sChIJpduGcewXHxURrg0Zpqy-3wo?authuser=0&hl=ar&rclk=1",
+    "website": "http://www.meysan.com/",
+    "stars": 5.0,
+    "reviews": 1,
+    "phone": "01 999 640"
+  },
+  {
     "title": "Lawyer Dany Geagea",
     "link": "https://www.google.com/maps/place/Lawyer+Dany+Geagea/data=!4m7!3m6!1s0x151f17b943fe0e3b:0xd2cedc5b4e0415aa!8m2!3d33.8648926!4d35.5393194!16s%2Fg%2F11f1587d7j!19sChIJOw7-Q7kXHxURqhUETlvcztI?authuser=0&hl=ar&rclk=1",
     "stars": 5.0,
@@ -177,6 +185,13 @@
     "phone": "01 901 482"
   },
   {
+    "title": "Abi Chacra Law Firm",
+    "link": "https://www.google.com/maps/place/Abi+Chacra+Law+Firm/data=!4m7!3m6!1s0x151f1708eb457e6b:0x2ad75e0ab424a3de!8m2!3d33.8749664!4d35.5182423!16s%2Fg%2F11gfh1_2xx!19sChIJa35F6wgXHxUR3qMktApe1yo?authuser=0&hl=ar&rclk=1",
+    "stars": 5.0,
+    "reviews": 2,
+    "phone": "01 380 870"
+  },
+  {
     "title": "Moghabghab & Associates Law Firm",
     "link": "https://www.google.com/maps/place/Moghabghab+%26+Associates+Law+Firm/data=!4m7!3m6!1s0x151f17092cb524d9:0xf8f21c4a9788bb00!8m2!3d33.874017!4d35.516366!16s%2Fg%2F11c5j7qypp!19sChIJ2SS1LAkXHxURALuIl0oc8vg?authuser=0&hl=ar&rclk=1",
     "stars": 4.9,
@@ -197,6 +212,13 @@
     "stars": 5.0,
     "reviews": 2,
     "phone": "03 197 145"
+  },
+  {
+    "title": "Abu Aziz Law",
+    "link": "https://www.google.com/maps/place/Abu+Aziz+Law/data=!4m7!3m6!1s0x151f178ede92e747:0xf36c7337720964b!8m2!3d33.8755972!4d35.5323259!16s%2Fg%2F11h3m9_xzn!19sChIJR-eS3o4XHxURS5YgdzPHNg8?authuser=0&hl=ar&rclk=1",
+    "stars": 4.8,
+    "reviews": 4,
+    "phone": null
   },
   {
     "title": "Tabbara Law Firm",
@@ -223,19 +245,12 @@
     "phone": "01 753 153"
   },
   {
-    "title": "Obeid & Medawar Law Firm",
-    "link": "https://www.google.com/maps/place/Obeid+%26+Medawar+Law+Firm/data=!4m7!3m6!1s0x151f16f945d32951:0x7c736598c31094f6!8m2!3d33.8918458!4d35.5175221!16s%2Fg%2F11c5h3760h!19sChIJUSnTRfkWHxUR9pQQw5hlc3w?authuser=0&hl=ar&rclk=1",
-    "website": "http://www.omlfirm.com/",
-    "stars": 4.5,
-    "reviews": 10,
-    "phone": "01 331 831"
-  },
-  {
-    "title": "Abu Aziz Law",
-    "link": "https://www.google.com/maps/place/Abu+Aziz+Law/data=!4m7!3m6!1s0x151f178ede92e747:0xf36c7337720964b!8m2!3d33.8755972!4d35.5323259!16s%2Fg%2F11h3m9_xzn!19sChIJR-eS3o4XHxURS5YgdzPHNg8?authuser=0&hl=ar&rclk=1",
+    "title": "مكتب المحامي يوسف الدرويش Phoenix Law Firm",
+    "link": "https://www.google.com/maps/place/%D9%85%D9%83%D8%AA%D8%A8+%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%85%D9%8A+%D9%8A%D9%88%D8%B3%D9%81+%D8%A7%D9%84%D8%AF%D8%B1%D9%88%D9%8A%D8%B4+Phoenix+Law+Firm%E2%80%AD/data=!4m7!3m6!1s0x151f171765d2989f:0x3a635277950c6c39!8m2!3d33.8926232!4d35.4876317!16s%2Fg%2F11q8wwq42l!19sChIJn5jSZRcXHxUROWwMlXdSYzo?authuser=0&hl=ar&rclk=1",
+    "website": "http://www.phoenix-lawfirm.com/",
     "stars": 4.8,
-    "reviews": 4,
-    "phone": null
+    "reviews": 6,
+    "phone": "71 119 798"
   },
   {
     "title": "Debs & Associates | Law Firm",
@@ -254,6 +269,14 @@
     "phone": "01 360 136"
   },
   {
+    "title": "Obeid & Medawar Law Firm",
+    "link": "https://www.google.com/maps/place/Obeid+%26+Medawar+Law+Firm/data=!4m7!3m6!1s0x151f16f945d32951:0x7c736598c31094f6!8m2!3d33.8918458!4d35.5175221!16s%2Fg%2F11c5h3760h!19sChIJUSnTRfkWHxUR9pQQw5hlc3w?authuser=0&hl=ar&rclk=1",
+    "website": "http://www.omlfirm.com/",
+    "stars": 4.5,
+    "reviews": 10,
+    "phone": "01 331 831"
+  },
+  {
     "title": "Michel Rizk Law Firm",
     "link": "https://www.google.com/maps/place/Michel+Rizk+Law+Firm/data=!4m7!3m6!1s0x151f16225cf6bbe1:0xbba80cbcdf25a3e1!8m2!3d33.8909102!4d35.5581809!16s%2Fg%2F1hm69x76w!19sChIJ4bv2XCIWHxUR4aMl37wMqLs?authuser=0&hl=ar&rclk=1",
     "stars": 5.0,
@@ -261,11 +284,11 @@
     "phone": "01 896 696"
   },
   {
-    "title": "Chehab Law Firm",
-    "link": "https://www.google.com/maps/place/Chehab+Law+Firm/data=!4m7!3m6!1s0x151f1729b7a69637:0xc89105653997a999!8m2!3d33.8952404!4d35.4857497!16s%2Fg%2F11dzt56_y1!19sChIJN5amtykXHxURmamXOWUFkcg?authuser=0&hl=ar&rclk=1",
+    "title": "Oueidat Law Firm",
+    "link": "https://www.google.com/maps/place/Oueidat+Law+Firm/data=!4m7!3m6!1s0x151f17ec0f03cf69:0x5d6418f0d8b2f5d0!8m2!3d33.8591562!4d35.4894107!16s%2Fg%2F11r_dj7v8w!19sChIJac8DD-wXHxUR0PWy2PAYZF0?authuser=0&hl=ar&rclk=1",
     "stars": 5.0,
     "reviews": 2,
-    "phone": "01 348 800"
+    "phone": "03 143 838"
   },
   {
     "title": "JUSTICIA Lawfirm",
@@ -274,6 +297,13 @@
     "stars": 4.3,
     "reviews": 27,
     "phone": "01 611 717"
+  },
+  {
+    "title": "Chehab Law Firm",
+    "link": "https://www.google.com/maps/place/Chehab+Law+Firm/data=!4m7!3m6!1s0x151f1729b7a69637:0xc89105653997a999!8m2!3d33.8952404!4d35.4857497!16s%2Fg%2F11dzt56_y1!19sChIJN5amtykXHxURmamXOWUFkcg?authuser=0&hl=ar&rclk=1",
+    "stars": 5.0,
+    "reviews": 2,
+    "phone": "01 348 800"
   },
   {
     "title": "Ghanem Law Firm: Law Firm in Lebanon, Lebanese Attorney Beirut",
@@ -333,6 +363,12 @@
     "phone": "01 336 060"
   },
   {
+    "title": "Fady Sarkis - Law Office",
+    "link": "https://www.google.com/maps/place/Fady+Sarkis+-+Law+Office/data=!4m7!3m6!1s0x151f165708fafa03:0x59516df4c6352dc8!8m2!3d33.8917693!4d35.5248558!16s%2Fg%2F11b6znzkxj!19sChIJA_r6CFcWHxURyC01xvRtUVk?authuser=0&hl=ar&rclk=1",
+    "website": "http://www.sarkis-ip.com/",
+    "phone": "01 200 631"
+  },
+  {
     "title": "Sfeir Law Firm",
     "link": "https://www.google.com/maps/place/Sfeir+Law+Firm/data=!4m7!3m6!1s0x151f17311f9e12df:0x102300154ea31e11!8m2!3d33.8738125!4d35.5170469!16s%2Fg%2F11vkpdbfbc!19sChIJ3xKeHzEXHxURER6jThUAIxA?authuser=0&hl=ar&rclk=1",
     "stars": 5.0,
@@ -369,16 +405,16 @@
     "phone": "03 811 665"
   },
   {
+    "title": "S.Matar",
+    "link": "https://www.google.com/maps/place/S.Matar/data=!4m7!3m6!1s0x151f165568171ba9:0xcbbaddd12abc1f02!8m2!3d33.8857474!4d35.5227593!16s%2Fg%2F1hm5gx8rf!19sChIJqRsXaFUWHxURAh-8KtHduss?authuser=0&hl=ar&rclk=1",
+    "phone": "01 201 368"
+  },
+  {
     "title": "Lawyer Elias Akl Khadta",
     "link": "https://www.google.com/maps/place/Lawyer+Elias+Akl+Khadta/data=!4m7!3m6!1s0x151f3d8567d263bf:0x4365d2c099b6b4c5!8m2!3d33.8892901!4d35.5702779!16s%2Fg%2F11j8xfs1wn!19sChIJv2PSZ4U9HxURxbS2mcDSZUM?authuser=0&hl=ar&rclk=1",
     "stars": 5.0,
     "reviews": 1,
     "phone": null
-  },
-  {
-    "title": "S.Matar",
-    "link": "https://www.google.com/maps/place/S.Matar/data=!4m7!3m6!1s0x151f165568171ba9:0xcbbaddd12abc1f02!8m2!3d33.8857474!4d35.5227593!16s%2Fg%2F1hm5gx8rf!19sChIJqRsXaFUWHxURAh-8KtHduss?authuser=0&hl=ar&rclk=1",
-    "phone": "01 201 368"
   },
   {
     "title": "D&C Legal Services",
@@ -397,433 +433,11 @@
     "phone": "01 422 466"
   },
   {
-    "title": "Fady Sarkis - Law Office",
-    "link": "https://www.google.com/maps/place/Fady+Sarkis+-+Law+Office/data=!4m7!3m6!1s0x151f165708fafa03:0x59516df4c6352dc8!8m2!3d33.8917693!4d35.5248558!16s%2Fg%2F11b6znzkxj!19sChIJA_r6CFcWHxURyC01xvRtUVk?authuser=0&hl=ar&rclk=1",
-    "website": "http://www.sarkis-ip.com/",
-    "phone": "01 200 631"
-  },
-  {
     "title": "Hammam Law Firm",
     "link": "https://www.google.com/maps/place/Hammam+Law+Firm/data=!4m7!3m6!1s0x151f173a1bf58b2f:0x552769971c80481b!8m2!3d33.8810848!4d35.4901315!16s%2Fg%2F11c55v9zc7!19sChIJL4v1GzoXHxURG0iAHJdpJ1U?authuser=0&hl=ar&rclk=1",
     "website": "https://www.facebook.com/hammamlawfirm",
     "stars": 4.0,
     "reviews": 1,
     "phone": "01 700 810"
-  },
-  {
-    "title": "Chamoun&Associates Law Firm",
-    "link": "https://www.google.com/maps/place/Chamoun%26Associates+Law+Firm/data=!4m7!3m6!1s0x151f3d0dc8564a81:0xacf020ac899269b3!8m2!3d33.9005803!4d35.572868!16s%2Fg%2F11p76l5cn2!19sChIJgUpWyA09HxURs2mSiawg8Kw?authuser=0&hl=ar&rclk=1",
-    "stars": 5.0,
-    "reviews": 2,
-    "phone": "70 947 217"
-  },
-  {
-    "title": "Lawyer Sleimanlawfirm محام بالإستئناف محمدعلي عيسى سليمان",
-    "link": "https://www.google.com/maps/place/Lawyer+Sleimanlawfirm+%D9%85%D8%AD%D8%A7%D9%85+%D8%A8%D8%A7%D9%84%D8%A5%D8%B3%D8%AA%D8%A6%D9%86%D8%A7%D9%81+%D9%85%D8%AD%D9%85%D8%AF%D8%B9%D9%84%D9%8A+%D8%B9%D9%8A%D8%B3%D9%89+%D8%B3%D9%84%D9%8A%D9%85%D8%A7%D9%86%E2%80%AD/data=!4m7!3m6!1s0x151f172ad1ddd04b:0xe83406b2bb30c2d3!8m2!3d33.8694455!4d35.5136769!16s%2Fg%2F11l2z_5d72!19sChIJS9Dd0SoXHxUR08Iwu7IGNOg?authuser=0&hl=ar&rclk=1",
-    "phone": "03 072 448"
-  },
-  {
-    "title": "Sfeir Law Firm",
-    "link": "https://www.google.com/maps/place/Sfeir+Law+Firm/data=!4m7!3m6!1s0x151f17644db64933:0x313f58fc1e854dc1!8m2!3d33.8919502!4d35.5119522!16s%2Fg%2F11gl0k08wm!19sChIJM0m2TWQXHxURwU2FHvxYPzE?authuser=0&hl=ar&rclk=1",
-    "phone": "03 307 308"
-  },
-  {
-    "title": "Badran law office",
-    "link": "https://www.google.com/maps/place/Badran+law+office/data=!4m7!3m6!1s0x151f177f41f88791:0x171674f1fb79d37f!8m2!3d33.8799553!4d35.533437!16s%2Fg%2F11p128hdpx!19sChIJkYf4QX8XHxURf9N5-_F0Fhc?authuser=0&hl=ar&rclk=1",
-    "stars": 5.0,
-    "reviews": 3,
-    "phone": "03 651 253"
-  },
-  {
-    "title": "LAWYER Assy Moussa , المحامي عاصي موسى , ASSY MOUSSA Avocat à la cour",
-    "link": "https://www.google.com/maps/place/LAWYER+Assy+Moussa+,+%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%85%D9%8A+%D8%B9%D8%A7%D8%B5%D9%8A+%D9%85%D9%88%D8%B3%D9%89+,+ASSY+MOUSSA+Avocat+%C3%A0+la+cour%E2%80%AD/data=!4m7!3m6!1s0x151f17b77329f791:0xe8f8042e91dcdf5c!8m2!3d33.878752!4d35.518858!16s%2Fg%2F11rdbhdjc5!19sChIJkfcpc7cXHxURXN_ckS4E-Og?authuser=0&hl=ar&rclk=1",
-    "phone": "03 411 360"
-  },
-  {
-    "title": "IMCA Consultancy - Headquarter",
-    "link": "https://www.google.com/maps/place/IMCA+Consultancy+-+Headquarter/data=!4m7!3m6!1s0x151f176075bcc4b9:0x51122d8a153d7f5e!8m2!3d33.8716055!4d35.5415751!16s%2Fg%2F11stlm74r7!19sChIJucS8dWAXHxURXn89FYotElE?authuser=0&hl=ar&rclk=1",
-    "website": "http://www.imcaconsultancy.com/",
-    "stars": 5.0,
-    "reviews": 1,
-    "phone": "81 188 114"
-  },
-  {
-    "title": "Linda Andraos",
-    "link": "https://www.google.com/maps/place/Linda+Andraos/data=!4m7!3m6!1s0x151f177a1b2134cf:0x2060c581052d8cb0!8m2!3d33.8892183!4d35.5042823!16s%2Fg%2F11k00qjstz!19sChIJzzQhG3oXHxURsIwtBYHFYCA?authuser=0&hl=ar&rclk=1",
-    "phone": "70 076 626"
-  },
-  {
-    "title": "Rahallawfirm",
-    "link": "https://www.google.com/maps/place/Rahallawfirm/data=!4m7!3m6!1s0x151f193c0c5e3249:0xf64523e72561c891!8m2!3d33.8387298!4d35.5389518!16s%2Fg%2F11j0cqnwxk!19sChIJSTJeDDwZHxURkchhJecjRfY?authuser=0&hl=ar&rclk=1",
-    "website": "http://rahallawfirm.website2.me/",
-    "stars": 5.0,
-    "reviews": 7,
-    "phone": "71 123 333"
-  },
-  {
-    "title": "Jaber Law Firm",
-    "link": "https://www.google.com/maps/place/Jaber+Law+Firm/data=!4m7!3m6!1s0x151f17c56faa15b5:0xb1af9f4122d0a2df!8m2!3d33.8789316!4d35.490361!16s%2Fg%2F11h2294tsb!19sChIJtRWqb8UXHxUR36LQIkGfr7E?authuser=0&hl=ar&rclk=1",
-    "stars": 3.6,
-    "reviews": 5,
-    "phone": null
-  },
-  {
-    "title": "IMCA Consultancy - Horesh Tabet",
-    "link": "https://www.google.com/maps/place/IMCA+Consultancy+-+Horesh+Tabet/data=!4m7!3m6!1s0x151f17119077092b:0x4418ac691feb3d23!8m2!3d33.8715682!4d35.5415796!16s%2Fg%2F11ssl1pwj3!19sChIJKwl3kBEXHxURIz3rH2msGEQ?authuser=0&hl=ar&rclk=1",
-    "website": "https://www.imcaconsultancy.com/",
-    "stars": 5.0,
-    "reviews": 36,
-    "phone": "81 374 727"
-  },
-  {
-    "title": "Abi Chacra Law Firm",
-    "link": "https://www.google.com/maps/place/Abi+Chacra+Law+Firm/data=!4m7!3m6!1s0x151f1708eb457e6b:0x2ad75e0ab424a3de!8m2!3d33.8749664!4d35.5182423!16s%2Fg%2F11gfh1_2xx!19sChIJa35F6wgXHxUR3qMktApe1yo?authuser=0&hl=ar&rclk=1",
-    "stars": 5.0,
-    "reviews": 2,
-    "phone": "01 380 870"
-  },
-  {
-    "title": "Khalaf Law Firm",
-    "link": "https://www.google.com/maps/place/Khalaf+Law+Firm/data=!4m7!3m6!1s0x151f17061bcb5a35:0x15b9aca27791f737!8m2!3d33.8766758!4d35.5174336!16s%2Fg%2F11c0rsrh8_!19sChIJNVrLGwYXHxURN_eRd6KsuRU?authuser=0&hl=ar&rclk=1",
-    "stars": 4.4,
-    "reviews": 10,
-    "phone": "01 429 300"
-  },
-  {
-    "title": "Abboud & Associates",
-    "link": "https://www.google.com/maps/place/Abboud+%26+Associates/data=!4m7!3m6!1s0x151f1763a97a83e3:0xc8b898ae2f15669d!8m2!3d33.8783094!4d35.5224506!16s%2Fg%2F11tghg28v7!19sChIJ44N6qWMXHxURnWYVL66YuMg?authuser=0&hl=ar&rclk=1",
-    "website": "https://abboudandassociates.com/",
-    "stars": 5.0,
-    "reviews": 1,
-    "phone": "01 429 501"
-  },
-  {
-    "title": "BeirutPractice LawFirm",
-    "link": "https://www.google.com/maps/place/BeirutPractice+LawFirm/data=!4m7!3m6!1s0x151f16e16073d939:0xde5897a73c9aa2b0!8m2!3d33.8939107!4d35.5054773!16s%2Fg%2F11cmqkvtcv!19sChIJOdlzYOEWHxURsKKaPKeXWN4?authuser=0&hl=ar&rclk=1",
-    "website": "http://www.beirutpractice.com/",
-    "stars": 4.2,
-    "reviews": 9,
-    "phone": "01 989 801"
-  },
-  {
-    "title": "Tohme Law Firm",
-    "link": "https://www.google.com/maps/place/Tohme+Law+Firm/data=!4m7!3m6!1s0x151f16f94149b43d:0x695f34f2073c2f2e!8m2!3d33.8920494!4d35.5175601!16s%2Fg%2F11dyr965l2!19sChIJPbRJQfkWHxURLi88B_I0X2k?authuser=0&hl=ar&rclk=1",
-    "website": "http://www.tohmelaw.com/",
-    "stars": 4.5,
-    "reviews": 2,
-    "phone": "01 333 433"
-  },
-  {
-    "title": "Safieddine Khoury & Jezzini Law Firm",
-    "link": "https://www.google.com/maps/place/Safieddine+Khoury+%26+Jezzini+Law+Firm/data=!4m7!3m6!1s0x151f177b7a188b95:0x56d5c008fcc2095a!8m2!3d33.8762509!4d35.5157693!16s%2Fg%2F11h2pl2tw7!19sChIJlYsYensXHxURWgnC_AjA1VY?authuser=0&hl=ar&rclk=1",
-    "website": "http://www.safilaw.com/",
-    "stars": 5.0,
-    "reviews": 5,
-    "phone": "01 383 600"
-  },
-  {
-    "title": "Haber and Partners Law Firm",
-    "link": "https://www.google.com/maps/place/Haber+and+Partners+Law+Firm/data=!4m7!3m6!1s0x151f16363e9949d9:0x2503871d27e51e90!8m2!3d33.8844255!4d35.5461709!16s%2Fg%2F11bzvwhs2v!19sChIJ2UmZPjYWHxURkB7lJx2HAyU?authuser=0&hl=ar&rclk=1",
-    "website": "http://www.haberlawfirm.com/",
-    "stars": 5.0,
-    "reviews": 2,
-    "phone": "01 492 012"
-  },
-  {
-    "title": "Jomaa & Partners Law Firm",
-    "link": "https://www.google.com/maps/place/Jomaa+%26+Partners+Law+Firm/data=!4m7!3m6!1s0x151f10cdc4cc4eaf:0x83ad15510b896ebc!8m2!3d33.8893889!4d35.4734142!16s%2Fg%2F11c553_nvq!19sChIJr07MxM0QHxURvG6JC1EVrYM?authuser=0&hl=ar&rclk=1",
-    "stars": 4.7,
-    "reviews": 6,
-    "phone": "01 862 822"
-  },
-  {
-    "title": "Lawyer Mazen Doughan",
-    "link": "https://www.google.com/maps/place/Lawyer+Mazen+Doughan/data=!4m7!3m6!1s0x151f17b7d518a955:0xb879218e3d55fd6d!8m2!3d33.8749508!4d35.5061881!16s%2Fg%2F11pxltjvmd!19sChIJVakY1bcXHxURbf1VPY4hebg?authuser=0&hl=ar&rclk=1",
-    "phone": "01 646 410"
-  },
-  {
-    "title": "Hachem Law Firm",
-    "link": "https://www.google.com/maps/place/Hachem+Law+Firm/data=!4m7!3m6!1s0x151f17a779e70167:0x7eff77f960d88527!8m2!3d33.8720256!4d35.522633!16s%2Fg%2F11f_1j300g!19sChIJZwHneacXHxURJ4XYYPl3_34?authuser=0&hl=ar&rclk=1",
-    "website": "http://www.hachemlawfirm.com/",
-    "stars": 4.6,
-    "reviews": 9,
-    "phone": "01 281 818"
-  },
-  {
-    "title": "Aldebaran Law",
-    "link": "https://www.google.com/maps/place/Aldebaran+Law/data=!4m7!3m6!1s0x151f17e1a13ee3e1:0xf0f57bed8e8c9e1c!8m2!3d33.8937913!4d35.5017767!16s%2Fg%2F11r9vbwpfx!19sChIJ4eM-oeEXHxURHJ6Mju179fA?authuser=0&hl=ar&rclk=1",
-    "website": "http://www.aldebaranlaw.com/",
-    "phone": "71 911 981"
-  },
-  {
-    "title": "Spectrum Law (Lawyers and Legal Advisors)",
-    "link": "https://www.google.com/maps/place/Spectrum+Law+%28Lawyers+and+Legal+Advisors%29/data=!4m7!3m6!1s0x151f17566fa2770f:0x4158a54ca15b628b!8m2!3d33.8806662!4d35.5422091!16s%2Fg%2F11nxc036tg!19sChIJD3eib1YXHxURi2JboUylWEE?authuser=0&hl=ar&rclk=1",
-    "website": "http://www.spectrum.law/",
-    "stars": 5.0,
-    "reviews": 1,
-    "phone": "03 794 951"
-  },
-  {
-    "title": "Moarbes LLP Beirut",
-    "link": "https://www.google.com/maps/place/Moarbes+LLP+Beirut/data=!4m7!3m6!1s0x151f17146dde8e45:0x99f042aba3721ed1!8m2!3d33.8860308!4d35.5230928!16s%2Fg%2F11h4zpx0z8!19sChIJRY7ebRQXHxUR0R5yo6tC8Jk?authuser=0&hl=ar&rclk=1",
-    "website": "http://www.moarbes.com/",
-    "stars": 5.0,
-    "reviews": 1,
-    "phone": "01 331 166"
-  },
-  {
-    "title": "Hage-Chahine Law Firm",
-    "link": "https://www.google.com/maps/place/Hage-Chahine+Law+Firm/data=!4m7!3m6!1s0x151f17991517cb0d:0x8d3c7cd8de2fa0d0!8m2!3d33.8493757!4d35.5484012!16s%2Fg%2F11frnb_7_d!19sChIJDcsXFZkXHxUR0KAv3th8PI0?authuser=0&hl=ar&rclk=1",
-    "website": "https://www.hagechahine.com/",
-    "stars": 5.0,
-    "reviews": 6,
-    "phone": "05 452 203"
-  },
-  {
-    "title": "Eid lawfirm",
-    "link": "https://www.google.com/maps/place/Eid+lawfirm/data=!4m7!3m6!1s0x151f16232ce1d1e7:0x6f67f7c0f86d0e3b!8m2!3d33.8904683!4d35.5549902!16s%2Fg%2F11c5hxc9mm!19sChIJ59HhLCMWHxUROw5t-MD3Z28?authuser=0&hl=ar&rclk=1",
-    "stars": 2.3,
-    "reviews": 3,
-    "phone": "03 742 213"
-  },
-  {
-    "title": "Noueihed Law Firm",
-    "link": "https://www.google.com/maps/place/Noueihed+Law+Firm/data=!4m7!3m6!1s0x151f1793ec912ad1:0x2ed4ce79ca3d84a6!8m2!3d33.8952329!4d35.4846941!16s%2Fg%2F11j65mf47w!19sChIJ0SqR7JMXHxURpoQ9ynnO1C4?authuser=0&hl=ar&rclk=1",
-    "website": "http://noueihed.net/",
-    "stars": 4.5,
-    "reviews": 4,
-    "phone": "01 750 682"
-  },
-  {
-    "title": "Beirut-Lawyer Law Firm",
-    "link": "https://www.google.com/maps/place/Beirut-Lawyer+Law+Firm/data=!4m7!3m6!1s0x151f1701984aaa0f:0xa57a9dd9016ea0f2!8m2!3d33.8813595!4d35.522982!16s%2Fg%2F11rj5j5mf8!19sChIJD6pKmAEXHxUR8qBuAdmdeqU?authuser=0&hl=ar&rclk=1",
-    "phone": null
-  },
-  {
-    "title": "Haddad Law Firm",
-    "link": "https://www.google.com/maps/place/Haddad+Law+Firm/data=!4m7!3m6!1s0x151f1706000b4d7f:0x4b8aec80a16ef298!8m2!3d33.8768727!4d35.5165546!16s%2Fg%2F11ddy1w1vw!19sChIJf00LAAYXHxURmPJuoYDsiks?authuser=0&hl=ar&rclk=1",
-    "stars": 5.0,
-    "reviews": 1,
-    "phone": null
-  },
-  {
-    "title": "المحكمة العسكرية المنفردة",
-    "link": "https://www.google.com/maps/place/%D8%A7%D9%84%D9%85%D8%AD%D9%83%D9%85%D8%A9+%D8%A7%D9%84%D8%B9%D8%B3%D9%83%D8%B1%D9%8A%D8%A9+%D8%A7%D9%84%D9%85%D9%86%D9%81%D8%B1%D8%AF%D8%A9%E2%80%AD/data=!4m7!3m6!1s0x151f1721ff87c41d:0xa16aca7798613aa5!8m2!3d33.8799841!4d35.483403!16s%2Fg%2F11sy_38kh0!19sChIJHcSH_yEXHxURpTphmHfKaqE?authuser=0&hl=ar&rclk=1",
-    "phone": null
-  },
-  {
-    "title": "Kobeissi and Frangié Attorneys & Counselors at Law",
-    "link": "https://www.google.com/maps/place/Kobeissi+and+Frangi%C3%A9+Attorneys+%26+Counselors+at+Law/data=!4m7!3m6!1s0x151f170c062cb197:0x75dbd18d7d487fd9!8m2!3d33.871353!4d35.516378!16s%2Fg%2F11g72fyz0d!19sChIJl7EsBgwXHxUR2X9IfY3R23U?authuser=0&hl=ar&rclk=1",
-    "stars": 4.6,
-    "reviews": 8,
-    "phone": "01 384 284"
-  },
-  {
-    "title": "Michel Tueni Law Firm",
-    "link": "https://www.google.com/maps/place/Michel+Tueni+Law+Firm/data=!4m7!3m6!1s0x151f170324c28d13:0x28a6a4a9590be2f1!8m2!3d33.885072!4d35.511958!16s%2Fg%2F11f101czy4!19sChIJE43CJAMXHxUR8eILWamkpig?authuser=0&hl=ar&rclk=1",
-    "stars": 4.5,
-    "reviews": 8,
-    "phone": "01 327 012"
-  },
-  {
-    "title": "Kouatly & Associates - Attorneys",
-    "link": "https://www.google.com/maps/place/Kouatly+%26+Associates+-+Attorneys/data=!4m7!3m6!1s0x151f178adfb0944f:0xc3cf4a7e689f38af!8m2!3d33.8926808!4d35.4853932!16s%2Fg%2F11fjtp6wgt!19sChIJT5Sw34oXHxURrzifaH5Kz8M?authuser=0&hl=ar&rclk=1",
-    "stars": 4.0,
-    "reviews": 1,
-    "phone": "01 751 777"
-  },
-  {
-    "title": "NAJI N. ABDALLAH Law Office",
-    "link": "https://www.google.com/maps/place/NAJI+N.+ABDALLAH+Law+Office/data=!4m7!3m6!1s0x151f17299f5d20f1:0x7fd2ab87d56f8bd6!8m2!3d33.8781059!4d35.5373801!16s%2Fg%2F11gjmv0371!19sChIJ8SBdnykXHxUR1otv1Yer0n8?authuser=0&hl=ar&rclk=1",
-    "phone": "03 700 762"
-  },
-  {
-    "title": "كرم للمحاماة والاستشارات",
-    "link": "https://www.google.com/maps/place/%D9%83%D8%B1%D9%85+%D9%84%D9%84%D9%85%D8%AD%D8%A7%D9%85%D8%A7%D8%A9+%D9%88%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA%E2%80%AD/data=!4m7!3m6!1s0x151f1771daa91de5:0x30394d20e0867f43!8m2!3d33.8948622!4d35.5645897!16s%2Fg%2F11ghs0r5ls!19sChIJ5R2p2nEXHxURQ3-G4CBNOTA?authuser=0&hl=ar&rclk=1",
-    "website": "http://karam-law.com/",
-    "stars": 5.0,
-    "reviews": 6,
-    "phone": "78 999 710"
-  },
-  {
-    "title": "Law",
-    "link": "https://www.google.com/maps/place/Law/data=!4m7!3m6!1s0x151f17f87f30d9f1:0x2c3ebb71c82dacf7!8m2!3d33.8986312!4d35.5041021!16s%2Fg%2F11fpq3tw2f!19sChIJ8dkwf_gXHxUR96wtyHG7Piw?authuser=0&hl=ar&rclk=1",
-    "phone": null
-  },
-  {
-    "title": "Madkour Law Firm",
-    "link": "https://www.google.com/maps/place/Madkour+Law+Firm/data=!4m7!3m6!1s0x151f1791fee3c3e5:0x7a71db57b3fe84f5!8m2!3d33.8879386!4d35.5093829!16s%2Fg%2F11s42q61p0!19sChIJ5cPj_pEXHxUR9YT-s1fbcXo?authuser=0&hl=ar&rclk=1",
-    "website": "https://www.madkourlawfirm.com/",
-    "stars": 5.0,
-    "reviews": 1,
-    "phone": "01 329 200"
-  },
-  {
-    "title": "Thuray Nasser Lawyer & Legal Consultant",
-    "link": "https://www.google.com/maps/place/Thuray+Nasser+Lawyer+%26+Legal+Consultant/data=!4m7!3m6!1s0x151f178397ceeb8b:0x7d205ecd5b560d51!8m2!3d33.8707029!4d35.5248135!16s%2Fg%2F11fcrw9y3q!19sChIJi-vOl4MXHxURUQ1WW81eIH0?authuser=0&hl=ar&rclk=1",
-    "phone": "03 830 396"
-  },
-  {
-    "title": "Lawyer Walid Mahmoud Fakih",
-    "link": "https://www.google.com/maps/place/Lawyer+Walid+Mahmoud+Fakih/data=!4m7!3m6!1s0x151f1747080a1495:0x7384c627b14bc9ea!8m2!3d33.8783434!4d35.4971008!16s%2Fg%2F11vf8t76dg!19sChIJlRQKCEcXHxUR6slLsSfGhHM?authuser=0&hl=ar&rclk=1",
-    "phone": "03 511 422"
-  },
-  {
-    "title": "Maison de l'avocat, Barreau de Beyrouth",
-    "link": "https://www.google.com/maps/place/Maison+de+l%27avocat,+Barreau+de+Beyrouth/data=!4m7!3m6!1s0x151f17545feb4187:0xe55696b860cb05c4!8m2!3d33.8787739!4d35.5187729!16s%2Fg%2F11j7xqd26y!19sChIJh0HrX1QXHxURxAXLYLiWVuU?authuser=0&hl=ar&rclk=1",
-    "stars": 2.5,
-    "reviews": 2,
-    "phone": "01 422 204"
-  },
-  {
-    "title": "Lawyer firm Bachir Bitar",
-    "link": "https://www.google.com/maps/place/Lawyer+firm+Bachir+Bitar/data=!4m7!3m6!1s0x151f1746d6aad83b:0x3ded4df83d2726d8!8m2!3d33.8629941!4d35.5404739!16s%2Fg%2F11v_6221kp!19sChIJO9iq1kYXHxUR2CYnPfhN7T0?authuser=0&hl=ar&rclk=1",
-    "phone": "70 228 808"
-  },
-  {
-    "title": "Lawyer wadih Skaff",
-    "link": "https://www.google.com/maps/place/Lawyer+wadih+Skaff/data=!4m7!3m6!1s0x151f175052c51fd5:0xab4bf38e44dca89e!8m2!3d33.8777532!4d35.5369955!16s%2Fg%2F11hfh5rbjx!19sChIJ1R_FUlAXHxURnqjcRI7zS6s?authuser=0&hl=ar&rclk=1",
-    "phone": "03 342 299"
-  },
-  {
-    "title": "Rifaat Associates - Lawyers & Legal Consultants",
-    "link": "https://www.google.com/maps/place/Rifaat+Associates+-+Lawyers+%26+Legal+Consultants/data=!4m7!3m6!1s0x151f16fcb50e595f:0x3ad86be88f27560a!8m2!3d33.8790002!4d35.5167547!16s%2Fg%2F11byp68gw6!19sChIJX1kOtfwWHxURClYnj-hr2Do?authuser=0&hl=ar&rclk=1",
-    "stars": 5.0,
-    "reviews": 1,
-    "phone": "01 422 330"
-  },
-  {
-    "title": "Andera Law Firm",
-    "link": "https://www.google.com/maps/place/Andera+Law+Firm/data=!4m7!3m6!1s0x151f1734f8b08461:0x15380d2dc6d011df!8m2!3d33.8770076!4d35.4927395!16s%2Fg%2F11t29gjkpf!19sChIJYYSw-DQXHxUR3xHQxi0NOBU?authuser=0&hl=ar&rclk=1",
-    "phone": null
-  },
-  {
-    "title": "Oueidat Law Firm",
-    "link": "https://www.google.com/maps/place/Oueidat+Law+Firm/data=!4m7!3m6!1s0x151f17ec0f03cf69:0x5d6418f0d8b2f5d0!8m2!3d33.8591562!4d35.4894107!16s%2Fg%2F11r_dj7v8w!19sChIJac8DD-wXHxUR0PWy2PAYZF0?authuser=0&hl=ar&rclk=1",
-    "stars": 5.0,
-    "reviews": 2,
-    "phone": "03 143 838"
-  },
-  {
-    "title": "CORTBAOUI & KANAAN",
-    "link": "https://www.google.com/maps/place/CORTBAOUI+%26+KANAAN/data=!4m7!3m6!1s0x151f173ee46c9237:0x816435b4d255c575!8m2!3d33.8989893!4d35.5049816!16s%2Fg%2F11hyn7wmns!19sChIJN5Js5D4XHxURdcVV0rQ1ZIE?authuser=0&hl=ar&rclk=1",
-    "website": "http://www.c-klaw.com/",
-    "phone": "01 970 910"
-  },
-  {
-    "title": "Lawyer Ali El Masri",
-    "link": "https://www.google.com/maps/place/Lawyer+Ali+El+Masri/data=!4m7!3m6!1s0x151f17cc978c1d29:0x6bd9c1b97e999337!8m2!3d33.8719996!4d35.5226028!16s%2Fg%2F11s7xpxdbr!19sChIJKR2Ml8wXHxURN5OZfrnB2Ws?authuser=0&hl=ar&rclk=1",
-    "phone": "71 889 060"
-  },
-  {
-    "title": "Khattar Associates: Lawyers in Lebanon, Lawyers in Beirut, Law firm Lebanon.",
-    "link": "https://www.google.com/maps/place/Khattar+Associates:+Lawyers+in+Lebanon,+Lawyers+in+Beirut,+Law+firm+Lebanon./data=!4m7!3m6!1s0x151f1785fadedb4d:0xfa274577e8fb3a6f!8m2!3d33.8790627!4d35.5160305!16s%2Fg%2F11f7h2hdwf!19sChIJTdve-oUXHxURbzr76HdFJ_o?authuser=0&hl=ar&rclk=1",
-    "website": "http://khattar-associates.com/",
-    "stars": 4.0,
-    "reviews": 1,
-    "phone": "01 424 898"
-  },
-  {
-    "title": "SALAMAS GROUP is composed of a Lebanese company called SALAMAS LAW FIRM and Emirati company known by SALAMAS INTERNATIONAL",
-    "link": "https://www.google.com/maps/place/SALAMAS+GROUP+is+composed+of+a+Lebanese+company+called+SALAMAS+LAW+FIRM+and+Emirati+company+known+by+SALAMAS+INTERNATIONAL/data=!4m7!3m6!1s0x151f17109e8fbd39:0x6ffd64edc7c29d1d!8m2!3d33.8751668!4d35.5199928!16s%2Fg%2F11trndfwgy!19sChIJOb2PnhAXHxURHZ3Cx-1k_W8?authuser=0&hl=ar&rclk=1",
-    "website": "http://www.salamaslawfirm.com/",
-    "phone": "03 424 172"
-  },
-  {
-    "title": "Mokhtar ghanem",
-    "link": "https://www.google.com/maps/place/Mokhtar+ghanem/data=!4m7!3m6!1s0x151f3d8f7e9247d9:0x4a936af29043c36f!8m2!3d33.8953545!4d35.5851262!16s%2Fg%2F11j7pc339n!19sChIJ2UeSfo89HxURb8NDkPJqk0o?authuser=0&hl=ar&rclk=1",
-    "phone": null
-  },
-  {
-    "title": "Lawyer Abdo Eid",
-    "link": "https://www.google.com/maps/place/Lawyer+Abdo+Eid/data=!4m7!3m6!1s0x151f17601b25dd45:0xac45a4240049ef94!8m2!3d33.8909659!4d35.5555057!16s%2Fg%2F11hf0lkvfj!19sChIJRd0lG2AXHxURlO9JACSkRaw?authuser=0&hl=ar&rclk=1",
-    "stars": 1.0,
-    "reviews": 1,
-    "phone": "03 742 213"
-  },
-  {
-    "title": "Boustany Law Offices",
-    "link": "https://www.google.com/maps/place/Boustany+Law+Offices/data=!4m7!3m6!1s0x151f1706c335da9d:0xf5f2d95db48cdc41!8m2!3d33.879988!4d35.5185875!16s%2Fg%2F11hcfmrb9t!19sChIJndo1wwYXHxURQdyMtF3Z8vU?authuser=0&hl=ar&rclk=1",
-    "website": "http://www.boustanylaw.com/",
-    "stars": 4.0,
-    "reviews": 1,
-    "phone": "01 613 000"
-  },
-  {
-    "title": "Hajjar Dagher Law Firm",
-    "link": "https://www.google.com/maps/place/Hajjar+Dagher+Law+Firm/data=!4m7!3m6!1s0x151f17bd749f7ab7:0x9b84402c31f41477!8m2!3d33.887225!4d35.5218856!16s%2Fg%2F11mvk4z451!19sChIJt3qfdL0XHxURdxT0MSxAhJs?authuser=0&hl=ar&rclk=1",
-    "website": "http://hajjar-dagher.com/",
-    "phone": null
-  },
-  {
-    "title": "Faten Hassan - Law Firm",
-    "link": "https://www.google.com/maps/place/Faten+Hassan+-+Law+Firm/data=!4m7!3m6!1s0x151f165b86a81ff3:0x668d19dfa1ffc549!8m2!3d33.8733399!4d35.5197223!16s%2Fg%2F11c58q_9zt!19sChIJ8x-ohlsWHxURScX_od8ZjWY?authuser=0&hl=ar&rclk=1",
-    "website": "http://fatenhassan.lawyer/",
-    "phone": "03 812 054"
-  },
-  {
-    "title": "EMEA Legal Counsels",
-    "link": "https://www.google.com/maps/place/EMEA+Legal+Counsels/data=!4m7!3m6!1s0x151f1704bfc4e7c1:0xcbb1b276e30f3d61!8m2!3d33.8790956!4d35.5174623!16s%2Fg%2F11by_dh_12!19sChIJwefEvwQXHxURYT0P43ayscs?authuser=0&hl=ar&rclk=1",
-    "website": "http://www.emealc.com/",
-    "stars": 5.0,
-    "reviews": 1,
-    "phone": "01 609 900"
-  },
-  {
-    "title": "Comaty",
-    "link": "https://www.google.com/maps/place/Comaty/data=!4m7!3m6!1s0x151f3fcaab6825e7:0xc18c037420d8b40!8m2!3d33.8735578!4d35.84741!16s%2Fg%2F11flkb5tg6!19sChIJ5yVoq8o_HxURQIsNQjfAGAw?authuser=0&hl=ar&rclk=1",
-    "phone": null
-  },
-  {
-    "title": "FAKHREDDINE LAW FIRM",
-    "link": "https://www.google.com/maps/place/FAKHREDDINE+LAW+FIRM/data=!4m7!3m6!1s0x151f16e60a4f85b7:0x1445fa6309665e32!8m2!3d33.8989293!4d35.5054457!16s%2Fg%2F11rcvm2d3!19sChIJt4VPCuYWHxURMl5mCWP6RRQ?authuser=0&hl=ar&rclk=1",
-    "phone": "01 966 024"
-  },
-  {
-    "title": "Hatem chahoud",
-    "link": "https://www.google.com/maps/place/Hatem+chahoud/data=!4m7!3m6!1s0x151f17ce70189257:0xead3506cf5445862!8m2!3d33.8693741!4d35.5618444!16s%2Fg%2F11j337s_9m!19sChIJV5IYcM4XHxURYlhE9WxQ0-o?authuser=0&hl=ar&rclk=1",
-    "phone": null
-  },
-  {
-    "title": "Alem & Associates",
-    "link": "https://www.google.com/maps/place/Alem+%26+Associates/data=!4m7!3m6!1s0x151f175262ae1029:0x56d7befaf1076d62!8m2!3d33.8996433!4d35.5064109!16s%2Fg%2F11h6mlb7xs!19sChIJKRCuYlIXHxURYm0H8fq-11Y?authuser=0&hl=ar&rclk=1",
-    "website": "https://alemlaw.com/",
-    "phone": "01 999 717"
-  },
-  {
-    "title": "Grace zaidan",
-    "link": "https://www.google.com/maps/place/Grace+zaidan/data=!4m7!3m6!1s0x151f17005f381fed:0x5021b73f85a562d3!8m2!3d33.8924531!4d35.5485915!16s%2Fg%2F11w4h4b7t2!19sChIJ7R84XwAXHxUR02KlhT-3IVA?authuser=0&hl=ar&rclk=1",
-    "phone": null
-  },
-  {
-    "title": "Nael El Husseini law office",
-    "link": "https://www.google.com/maps/place/Nael+El+Husseini+law+office/data=!4m7!3m6!1s0x151f175d7e77a657:0x7fe66854fb7271fa!8m2!3d33.8798356!4d35.4919214!16s%2Fg%2F11rp3bt9tk!19sChIJV6Z3fl0XHxUR-nFy-1Ro5n8?authuser=0&hl=ar&rclk=1",
-    "phone": "01 304 600"
-  },
-  {
-    "title": "Hamdan Law Firm",
-    "link": "https://www.google.com/maps/place/Hamdan+Law+Firm/data=!4m7!3m6!1s0x151f10d545f6e311:0x142075ca7ffd3501!8m2!3d33.893765!4d35.476366!16s%2Fg%2F1tj553_b!19sChIJEeP2RdUQHxURATX9f8p1IBQ?authuser=0&hl=ar&rclk=1",
-    "website": "https://www.hamdanlawfirm.com/",
-    "stars": 3.0,
-    "reviews": 2,
-    "phone": "01 806 682"
-  },
-  {
-    "title": "Tehfe Zeaiter Attorney at law Beirut",
-    "link": "https://www.google.com/maps/place/Tehfe+Zeaiter+Attorney+at+law+Beirut/data=!4m7!3m6!1s0x151f1753325225f5:0x60e6c993781630e6!8m2!3d33.8895275!4d35.5559354!16s%2Fg%2F11pv0mhtws!19sChIJ9SVSMlMXHxUR5jAWeJPJ5mA?authuser=0&hl=ar&rclk=1",
-    "phone": "03 336 352"
-  },
-  {
-    "title": "SAAS Lawyers",
-    "link": "https://www.google.com/maps/place/SAAS+Lawyers/data=!4m7!3m6!1s0x151f16e34d655447:0x2b6a32b7c96aa752!8m2!3d33.8926183!4d35.5109239!16s%2Fg%2F11c5bjbrct!19sChIJR1RlTeMWHxURUqdqybcyais?authuser=0&hl=ar&rclk=1",
-    "stars": 5.0,
-    "reviews": 2,
-    "phone": "01 218 444"
-  },
-  {
-    "title": "Maalouf, Abi Younes and Tohme law firm",
-    "link": "https://www.google.com/maps/place/Maalouf,+Abi+Younes+and+Tohme+law+firm/data=!4m7!3m6!1s0x7d09a730a31a383:0x597327ed7a170500!8m2!3d33.8735578!4d35.84741!16s%2Fg%2F11vt5cxq1j!19sChIJg6MxCnOa0AcRAAUXeu0nc1k?authuser=0&hl=ar&rclk=1",
-    "website": "https://www.matlawfirm.com/",
-    "phone": "01 332 312"
   }
 ]
