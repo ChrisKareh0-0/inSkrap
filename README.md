@@ -47,13 +47,13 @@ This project is a web application that allows users to scrape data from Google M
 
 3. **Run the Docker container:**
    ```bash
-    docker run -p 5000:3000 google-maps-scraper
+    docker run -p 5000:5000 -p 3000:3000 wire-scraper-v0.1
    ```
    ![Screenshot of the application](screenshot.png)
 
 ## Usage
 
-1. Open your web browser and navigate to `http://localhost:5000` to access the application.
+1. Open your web browser and navigate to `http://localhost:3000` to access the application.
 2. Enter the keyword and location in the search form and click "Search".
 3. View the results displayed in the table.
 4. Use the "Export to PDF" and "Export to Excel" buttons to save the results.
