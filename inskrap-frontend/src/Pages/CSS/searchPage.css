@@ -5,18 +5,14 @@
   
   form {
     margin: 20px 0;
-    display: flex;
-    flex-direction: row;
   }
   
   label {
     margin-right: 10px;
-    color: #fff
   }
   
   input {
     margin: 10px;
-    border-radius: 20px;
   }
   
   button {
@@ -29,28 +25,26 @@
   table {
     margin: 20px auto;
     border-collapse: collapse;
-    width: 90%;
-    background-color: #000; /* Ensure entire table has a black background */
+    width: 80%;
   }
   
   th, td {
-    border: 1px solid #000;
+    border: 1px solid #ddd;
     padding: 8px;
-    background-color: #000; /* Black background for header and cells */
-    color: #fff; /* White text color */
   }
   
   th {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* White text color */
     text-align: left;
   }
   
-  tbody tr {
-    background-color: #000; /* Black background for table rows */
-    color: #fff;
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
   }
   
   tbody tr:hover {
-    background-color: #333; /* Slightly lighter black background on hover */
+    background-color: #ddd;
   }
   
   a button {
@@ -65,16 +59,3 @@
     text-decoration: none;
   }
   
-  .title{
-    color: #fff
-  }
-
-  .searchButton{
-    margin-top: 0 !important;
-  }
-  h2{
-    color: #fff;
-  }
-  p{
-    color: #fff;
-  }
