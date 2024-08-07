@@ -31,7 +31,12 @@ This project is a web application that allows users to scrape data from Google M
 ## Setup Instructions
 
 ### Docker Setup
-
+ "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
 1. **Clone the repository:**
 
    ```bash

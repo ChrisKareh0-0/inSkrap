@@ -8,19 +8,22 @@ from webdriver_manager.chrome import ChromeDriverManager
 import time
 import json
 
-def scrape_google_maps(search_query):
+def scrape_google_maps(keyword, output_file='results.json'):
     chrome_options = webdriver.ChromeOptions()
 
-    service = Service(
-        ChromeDriverManager().install()
-    )
+    # Add necessary options for running Chrome in a Docker container
+    chrome_options.add_argument("--headless")
+    chrome_options.add_argument("--no-sandbox")
+    chrome_options.add_argument("--disable-dev-shm-usage")
+    chrome_options.add_argument("--remote-debugging-port=9222")
 
-    driver = webdriver.Chrome(
-        service=service, options=chrome_options
-    )
+    # Ensure the path is correct and points to the chromedriver binary
+    service = Service(ChromeDriverManager().install())
+
+    driver = webdriver.Chrome(service=service, options=chrome_options)
 
     try:
-        driver.get(f'https://www.google.com/maps/search/?api=1&query={search_query}')
+        driver.get(f'https://www.google.com/maps/search/?api=1&query={keyword}')
 
         try:
             WebDriverWait(driver, 5).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "form:nth-child(2)"))).click()
@@ -62,9 +65,7 @@ def scrape_google_maps(search_query):
         items = driver.find_elements(By.CSS_SELECTOR, 'div[role="feed"] > div > div[jsaction]')
 
         results = []
-        phone_pattern = re.compile(
-            r'\b\d{2}\s?\d{3}\s?\d{3}\b'
-        )
+        phone_pattern = re.compile(r'\b\d{2}\s?\d{3}\s?\d{3}\b')
 
         for item in items:
             data = {}
@@ -107,12 +108,12 @@ def scrape_google_maps(search_query):
             if data.get('title'):
                 results.append(data)
 
-        return results
+        with open(output_file, 'w', encoding='utf-8') as f:
+            json.dump(results, f, ensure_ascii=False, indent=2)
 
     finally:
         time.sleep(60)
         driver.quit()
 
 if __name__ == "__main__":
-    results = scrape_google_maps('lawyer')
-    print(json.dumps(results, ensure_ascii=False, indent=2))
+    scrape_google_maps('lawyer')

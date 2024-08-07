@@ -1,18 +1,21 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-
 import './CSS/searchPage.css';
 
 function SearchPage() {
   const [keyword, setKeyword] = useState('');
   const [location, setLocation] = useState('');
   const [results, setResults] = useState([]);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(null);
 
   const handleSubmit = async (event) => {
     event.preventDefault();
+    setLoading(true);
+    setError(null);
 
     try {
-      const response = await axios.post('http://127.0.0.1:5000/scrape', {
+      const response = await axios.post('http://127.0.0.1:5001/scrape', {
         keyword,
         location
       });
@@ -20,10 +23,11 @@ function SearchPage() {
       setResults(response.data);
     } catch (error) {
       console.error('There was an error with the request:', error);
+      setError('There was an error with the request.');
+    } finally {
+      setLoading(false);
     }
   };
-
-
 
   return (
     <div className="search-page">
@@ -49,47 +53,55 @@ function SearchPage() {
         </div>
         <button type="submit">Search</button>
       </form>
-      <div>
-        <h2>Results</h2>
-        <p>Total Results: {results.length}</p>
-        {results.length > 0 && (
-          <div>
-            
-            <table>
-              <thead>
-                <tr>
-                  <th>Title</th>
-                  <th>Link</th>
-                  <th>Website</th>
-                  <th>Phone</th>
-                  <th>Stars</th>
-                  <th>Reviews</th>
-                </tr>
-              </thead>
-              <tbody>
-                {results.map((result, index) => (
-                  <tr key={index}>
-                    <td>{result.title}</td>
-                    <td>
-                      <a href={result.link} target="_blank" rel="noopener noreferrer">
-                        <button>Map Link</button>
-                      </a>
-                    </td>
-                    <td>
-                      <a href={result.website} target="_blank" rel="noopener noreferrer">
-                        <button>Website</button>
-                      </a>
-                    </td>
-                    <td>{result.phone}</td>
-                    <td>{result.stars}</td>
-                    <td>{result.reviews}</td>
+
+      {loading && <div className="loader"><span></span></div>}
+
+      {error && <p className="error">{error}</p>}
+
+      {!loading && !error && (
+        <div>
+          <h2>Results</h2>
+          <p>Total Results: {results.length}</p>
+          {results.length > 0 ? (
+            <div>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Title</th>
+                    <th>Link</th>
+                    <th>Website</th>
+                    <th>Phone</th>
+                    <th>Stars</th>
+                    <th>Reviews</th>
                   </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        )}
-      </div>
+                </thead>
+                <tbody>
+                  {results.map((result, index) => (
+                    <tr key={index}>
+                      <td>{result.title}</td>
+                      <td>
+                        <a href={result.link} target="_blank" rel="noopener noreferrer">
+                          <button>Map Link</button>
+                        </a>
+                      </td>
+                      <td>
+                        <a href={result.website} target="_blank" rel="noopener noreferrer">
+                          <button>Website</button>
+                        </a>
+                      </td>
+                      <td>{result.phone}</td>
+                      <td>{result.stars}</td>
+                      <td>{result.reviews}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          ) : (
+            <p>No results found.</p>
+          )}
+        </div>
+      )}
     </div>
   );
 }

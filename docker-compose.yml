@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend-app
+      dockerfile: Dockerfile
+    container_name: backend
+    environment:
+      - FLASK_APP=app.py
+    volumes:
+      - ./backend-app:/app
+    ports:
+      - "5001:5001"
+    networks:
+      - app-network
+
+  frontend:
+    build:
+      context: ./inskrap-frontend
+      dockerfile: Dockerfile
+    container_name: frontend
+    volumes:
+      - ./inskrap-frontend:/app
+    ports:
+      - "3000:3000"
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
