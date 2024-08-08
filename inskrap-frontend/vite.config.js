@@ -1,18 +1,12 @@
-// vite.config.js
-import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react";
+import { defineConfig } from 'vite'
+import { resolve } from 'path'
 
 export default defineConfig({
-  plugins: [react()],
   build: {
-    outDir: "dist", // Ensure this is set to 'dist'
-  },
-});
-//
-// import { defineConfig } from "vite";
-// import react from "@vitejs/plugin-react";
-//
-// // https://vitejs.dev/config/
-// export default defineConfig({
-//   plugins: [react()],
-// });
+    rollupOptions: {
+      input: {
+        main: resolve(__dirname, 'main.js')
+      }
+    }
+  }
+})

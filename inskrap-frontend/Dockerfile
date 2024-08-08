@@ -11,16 +11,16 @@ COPY package*.json ./
 RUN rm -rf node_modules package-lock.json
 
 # Install dependencies
-RUN npm install
+RUN yarn install
 
 # Copy the rest of the application code to the working directory
 COPY . .
 
 # Build the React app for production
-RUN npm run build
+RUN yarn run build
 
 # Install `serve` to serve the built files
-RUN npm install -g serve
+RUN yarn global add serve
 
 # Expose the port the app runs on
 EXPOSE 3000
